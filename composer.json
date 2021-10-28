@@ -1,0 +1,22 @@
+{
+  "name": "pantheon-quicksilver/new_relic_apdex_t.php",
+  "description": "Set New Relic Apdex T values on Multidev Creation.",
+  "homepage": "https://github.com/pantheon-quicksilver/new-relic-apdex-t",
+  "type": "quicksilver-script",
+  "require": {
+    "composer/installers": "~1.0"
+  },
+  "license": "MIT",
+  "extra": {
+    "pantheon-quicksilver": {
+      "new-relic-apdex-t": [
+        {
+          "wf_type": "create_cloud_development_environment",
+          "stage": "after",
+          "script": "new_relic_apdex_t.php",
+          "weight": 100
+        }
+      ]
+    }
+  }
+}
