@@ -1,5 +1,5 @@
 {
-  "name": "pantheon-quicksilver/new-relic-apdex-t.php",
+  "name": "pantheon-quicksilver/new-relic-apdex-t",
   "description": "Set New Relic Apdex T values on Multidev Creation.",
   "homepage": "https://github.com/pantheon-quicksilver/new-relic-apdex-t",
   "type": "quicksilver-script",
