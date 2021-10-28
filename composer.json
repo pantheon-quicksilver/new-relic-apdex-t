@@ -1,5 +1,5 @@
 {
-  "name": "pantheon-quicksilver/new_relic_apdex_t.php",
+  "name": "pantheon-quicksilver/new-relic-apdex-t.php",
   "description": "Set New Relic Apdex T values on Multidev Creation.",
   "homepage": "https://github.com/pantheon-quicksilver/new-relic-apdex-t",
   "type": "quicksilver-script",
@@ -13,7 +13,7 @@
         {
           "wf_type": "create_cloud_development_environment",
           "stage": "after",
-          "script": "new_relic_apdex_t.php",
+          "script": "new-relic-apdex-t.php",
           "weight": 100
         }
       ]
